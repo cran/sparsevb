@@ -7,6 +7,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // fit_linear
 Rcpp::List fit_linear(const arma::mat& X, const arma::vec& Y, arma::vec mu, arma::vec sigma, arma::vec gamma, const double& alpha, const double& beta, const double& lambda, const arma::uvec& update_order, const std::string& prior, const size_t& max_iter, const double& tol);
 RcppExport SEXP _sparsevb_fit_linear(SEXP XSEXP, SEXP YSEXP, SEXP muSEXP, SEXP sigmaSEXP, SEXP gammaSEXP, SEXP alphaSEXP, SEXP betaSEXP, SEXP lambdaSEXP, SEXP update_orderSEXP, SEXP priorSEXP, SEXP max_iterSEXP, SEXP tolSEXP) {

@@ -1,13 +1,13 @@
-6e39d16c461b48a5337f49307ae2bbad *DESCRIPTION
+9b4435bf5e32ad6ff00086e4a6116422 *DESCRIPTION
 0b89c0bd76c1a662053c2daf765d1e20 *NAMESPACE
 b3e2a8a4fdaa49770665a8878de9c46d *R/RcppExports.R
 8b376618ea767911b43c597b5e3877bd *R/sparsevb-package.R
 d26edfddf57ccb0dd5112299540b2d46 *R/svb.fit.R
 6dc5fe17f102e5dd12391cabf65a3667 *man/sparsevb-package.Rd
 15734a3621ea7c0a877e2051ce672325 *man/svb.fit.Rd
-13b03cd3dd721948c30479759060bb49 *src/Makevars
-61059660eb073d93e00e8ee054237071 *src/Makevars.win
-a292bac310db6f1ee13cab2c3fc1ad7c *src/RcppExports.cpp
+951c8908031d32f2ece7cacf37a4d7ea *src/Makevars
+951c8908031d32f2ece7cacf37a4d7ea *src/Makevars.win
+efa98b4026e623448da26758e1b5e7fc *src/RcppExports.cpp
 418d6d632a1f5ad58c6d41ee9cea975d *src/fit_linear.cpp
 e906c53c3e8a732e545f6908d6160350 *src/fit_linear.h
 d109ddbeacd9ba057071d012c15d6277 *src/fit_logit.cpp
